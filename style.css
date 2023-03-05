@@ -30,6 +30,7 @@ h2 {
 
 
 
+
 .bg-fixed {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -81,31 +82,37 @@ h2 {
 
 
 .s1{
-    background-image: url("./img/sfondo1.png");
+    background-image: url("./img/game1.png");
     box-shadow: #00B5CC 2px solid;
     padding: 20px;
     margin-left: 10%;
     margin-right: 10%;
     width: 400px;
     height: 220px;
+    border-radius: 10px 10px 10px 10px; 
+
 }
 .s2{
-  background-image: url("./img/ciao.png");
+  background-image: url("./img/game2.png");
   box-shadow: #00B5CC 2px solid;
   padding: 20px;
   margin-left: 10%;
   margin-right: 10%;
   width: 400px;
   height: 220px;
+  border-radius: 10px 10px 10px 10px; 
+
 }
 .s3{
-  background-image: url("./img/ciao.png");
+  background-image: url("./img/game3.png");
   box-shadow: #00B5CC 2px solid;
   padding: 20px;
   margin-left: 10%;
   margin-right: 10%;
   width: 400px;
   height: 220px;
+  border-radius: 10px 10px 10px 10px; 
+
 }
 
 .col{
@@ -174,6 +181,7 @@ h2 {
 .col-50{ width: 50%; }
 .col-70{ width: 70%; }
 .col-80{ width: 80%; }
+.col-90{ width: 97%; }
 .col-100{ width: 100%; }
 
 @media (max-width: 991px) {
